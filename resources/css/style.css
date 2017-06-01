@@ -7,6 +7,7 @@ header  {
   position: fixed;
   border-bottom: 1px solid black;
   width: 100%;
+  justify-content: space-between;
 }
 .myt  {
   display: flex;
