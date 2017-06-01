@@ -1,0 +1,33 @@
+header  {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+.myt  {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+.myt img  {
+  margin-right: 12px;
+}
+.myt span  {
+  color: MediumAquamarine;
+  padding: 10px;
+}
+nav span  {
+  display: inline-block;
+  padding: 20px 10px;
+}
+header nav  {
+  padding-right: 40px;
+}
+a  {
+  color: black;
+}
