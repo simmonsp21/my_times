@@ -1,17 +1,21 @@
+body  {
+}
 header  {
+  align-items: center;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  position: fixed;
-  border-bottom: 1px solid black;
-  width: 100%;
-  justify-content: space-between;
 }
 .myt  {
   display: flex;
   align-items: center;
+  flex-grow: 1;
   padding-left: 30px;
   padding-bottom: 10px;
 }
@@ -31,4 +35,38 @@ header nav  {
 }
 a  {
   color: black;
+}
+/* Main Column */
+.wrapper  {
+  display: flex;
+  justify-content: space-around;
+  margin: 0
+}
+.flex-container {
+  display: flex;
+  padding-top: 116px;
+  /*margin: 0 auto 78px;
+  z-index: 0;
+  justify-content: space-around;
+  /*width: auto;*/
+  /*flex-direction: row;*/
+}
+.column.large  {
+  /*display: flex;*/
+  max-width: 630px;
+}
+.column-medium  {
+  width: 300px;
+  /*flex-direction: column;*/
+}
+.column-small  {
+  width: 240px;
+  /*flex-direction: column;*/
+}
+p  {
+  display: block;
+  color: black;
+}
+div  {
+  display: block;
 }
